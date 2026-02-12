@@ -61,20 +61,20 @@ int main(){
     printf("Cidade:%s \n", Cidade1);
     printf("Populaçao:%d \n", populaçao1);
     printf("Area em KM²:%.3f \n", ARK1);
-    printf("PIB:%.3f \n", PIB1);
+    printf("PIB:%.3f reais \n", PIB1);
     printf("Pontos Turisticos:%d \n", PT1);
-    printf("Densidade Populacional:%.2f \n", (float) DSP1);
-    printf("PIB per capita:%.2f \n\n\n    ", (float) PBC1);
+    printf("Densidade Populacional:%.2f hab/km² \n", (float) DSP1);
+    printf("PIB per capita:%.2f reais \n\n\n    ", (float) PBC1);
 
     printf("Codigo da carta:%s\n", Codigo2);
     printf("Etado:%s \n", Estado2);
     printf("Cidade:%s \n", Cidade2);
     printf("Populaçao:%d \n", populaçao2);
     printf("Area em KM²:%.4f \n", ARK2);
-    printf("PIB:%.3f \n", PIB2);
+    printf("PIB:%.3f reais \n", PIB2);
     printf("Pontos Turisticos:%d \n", PT2);
-    printf("Densidade Populacional:%.2pf \n", (float) DSP2);
-    printf("Pib per capital:%.2f\n\n\n", (float) PBC2);
+    printf("Densidade Populacional:%.2pf hab/km² \n", (float) DSP2);
+    printf("Pib per capital:%.2f reais \n\n\n", (float) PBC2);
 
 
 
