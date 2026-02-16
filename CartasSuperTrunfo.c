@@ -68,8 +68,8 @@
     printf("PIB:%.3f reais\n", PIB1);
     printf("Pontos Turisticos:%d\n", PT1);
     printf("Densidade Populacional:%.2f hab/km² \n", (float) DSP1);
-    printf("PIB per capita:%.2f reais \n\n\n    ", (float) PBC1);
-    printf("Super Poder:%lu\n", superpoder1);
+    printf("PIB per capita:%.3f reais \n", (float) PBC1);
+    printf("Super Poder:%lu\n\n\n", superpoder1);
 
     printf("Codigo da carta:%s\n", Codigo2);
     printf("Etado:%s\n", Estado2);
@@ -79,8 +79,8 @@
     printf("PIB:%.3f reais\n", PIB2);
     printf("Pontos Turisticos:%d\n", PT2);
     printf("Densidade Populacional:%.2f hab/km²\n", (float) DSP2);
-    printf("Pib per capital:%.2f reais\n\n\n", (float) PBC2);
-    printf("Super Poder:%lu\n", superpoder2);
+    printf("Pib per capital:%.3f reais\n", (float) PBC2);
+    printf("Super Poder:%lu\n\n\n", superpoder2);
 
     
     printf("Resultado do Supertrunfo:\n");
