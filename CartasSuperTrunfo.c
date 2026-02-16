@@ -26,7 +26,7 @@
     printf("Digite a cidade da carta:\n");
     scanf("%s", Cidade1);
     printf("Digite a populaçao da carta:\n");
-    scanf("%d", &populaçao1);
+    scanf("%lu", &populaçao1);
     printf("Digite a Area em KM² da carta:\n");
     scanf("%f", &ARK1);
     printf("Digite o PIB da carta:\n");
@@ -41,7 +41,7 @@
     printf("Digite a cidade da carta:\n");
     scanf("%s", Cidade2);
     printf("Digite a populaçao da carta:\n");
-    scanf("%d", &populaçao2);
+    scanf("%lu", &populaçao2);
     printf("Digite a Area em KM² da carta:\n");
     scanf("%f", &ARK2);
     printf("Digite o PIB da carta:\n");
@@ -63,7 +63,7 @@
     printf("Codigo da carta:%s\n", Codigo1);
     printf("Etado:%s\n", Estado1);
     printf("Cidade:%s\n", Cidade1);
-    printf("Populaçao:%d\n", populaçao1);
+    printf("Populaçao:%lu\n", populaçao1);
     printf("Area em KM²:%.3f\n", ARK1);
     printf("PIB:%.3f reais\n", PIB1);
     printf("Pontos Turisticos:%d\n", PT1);
@@ -74,7 +74,7 @@
     printf("Codigo da carta:%s\n", Codigo2);
     printf("Etado:%s\n", Estado2);
     printf("Cidade:%s\n", Cidade2);
-    printf("Populaçao:%d\n", populaçao2);
+    printf("Populaçao:%lu\n", populaçao2);
     printf("Area em KM²:%.4f\n", ARK2);
     printf("PIB:%.3f reais\n", PIB2);
     printf("Pontos Turisticos:%d\n", PT2);
