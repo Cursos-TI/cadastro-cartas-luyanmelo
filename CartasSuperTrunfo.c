@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+    int main(){
     char Estado1[50];
     char Estado2[50];
     char Codigo1[50] = "A01";
@@ -16,7 +16,7 @@ int main(){
     int PT1;
     int PT2;
     float PBC1, PBC2, DSP1, DSP2;
-    unsigned int res;
+    
     
 
 
@@ -97,3 +97,5 @@ int main(){
 
 
     return 0;
+
+}
